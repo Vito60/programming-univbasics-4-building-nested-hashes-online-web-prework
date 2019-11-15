@@ -1,15 +1,26 @@
 def base_hash
+<<<<<<< HEAD
   monopoly =  {
   :railroads => {}
+=======
+  monopoly = {
+    :railroads => {
+>>>>>>> 207d5a6a433e164695bd34451bce34dca800a356
   }
   # Remember implicit return! We're returning this new Hash _without_ the
   # keyword "return." Nice and neat.
 end
 
 def monopoly_with_second_tier
+<<<<<<< HEAD
    monopoly =  {
   :railroads => {
     :pieces => 4
+=======
+  monopoly = {
+    :railroads => {
+      :pieces => 4
+>>>>>>> 207d5a6a433e164695bd34451bce34dca800a356
     }
   }
   # When you start writing the implementation for this method, copy the Hash
